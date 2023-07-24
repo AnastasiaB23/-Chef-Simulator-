@@ -1,0 +1,48 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1690123044209153, "dur":78203, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690123044287389, "dur":38139, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690123044325664, "dur":86, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1690123044325750, "dur":424, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690123044326250, "dur":2440718, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690123046766974, "dur":21263, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690123046788238, "dur":124, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690123046788388, "dur":909, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690123046789333, "dur":266, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690123046789621, "dur":90, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690123046789800, "dur":508905, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1690123044326936, "dur":2440054, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690123046766996, "dur":21215, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690123044326966, "dur":2440042, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690123046767012, "dur":3518, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690123046770531, "dur":1110, "ph":"X", "name": "File",  "args": { "detail":"Assets\\Brick Project Studio\\Apartment Kit\\Common\\Scripts & Animation\\Windows\\opencloseWindowApt.cs" }}
+,{ "pid":12345, "tid":2, "ts":1690123046770531, "dur":4047, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690123046774579, "dur":1141, "ph":"X", "name": "File",  "args": { "detail":"Assets\\AstarPathfindingProject\\Navmesh\\NavmeshAdd.cs" }}
+,{ "pid":12345, "tid":2, "ts":1690123046774579, "dur":5792, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690123046780371, "dur":2833, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690123046783205, "dur":2230, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690123046786036, "dur":535, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.xr.interaction.toolkit@2.3.0\\Editor\\Interaction\\Interactables\\XRInteractableSnapVolumeEditor.cs" }}
+,{ "pid":12345, "tid":2, "ts":1690123046785436, "dur":3767, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690123044327083, "dur":2439938, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690123046769762, "dur":1181, "ph":"X", "name": "File",  "args": { "detail":"Assets\\Scripts\\UI scripts\\Settings.cs" }}
+,{ "pid":12345, "tid":3, "ts":1690123046767027, "dur":4245, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690123046771273, "dur":3072, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690123046774346, "dur":1376, "ph":"X", "name": "File",  "args": { "detail":"Assets\\AstarPathfindingProject\\RVO\\RVOSquareObstacle.cs" }}
+,{ "pid":12345, "tid":3, "ts":1690123046774346, "dur":6000, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690123046780347, "dur":2625, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690123046782975, "dur":2329, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690123046786052, "dur":519, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.xr.interaction.toolkit@2.3.0\\Editor\\Locomotion\\TunnelingVignetteControllerEditor.cs" }}
+,{ "pid":12345, "tid":3, "ts":1690123046785305, "dur":3806, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690123044327247, "dur":2439785, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690123046770421, "dur":864, "ph":"X", "name": "File",  "args": { "detail":"Assets\\Brick Project Studio\\Apartment Kit\\Scenes\\Quitgame.cs" }}
+,{ "pid":12345, "tid":4, "ts":1690123046771286, "dur":512, "ph":"X", "name": "File",  "args": { "detail":"Assets\\Brick Project Studio\\Apartment Kit\\Common\\Scripts & Animation\\Z Axis -1\\Drawer_Pull_Zopp.cs" }}
+,{ "pid":12345, "tid":4, "ts":1690123046767033, "dur":4766, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690123046772274, "dur":576, "ph":"X", "name": "File",  "args": { "detail":"Assets\\AstarPathfindingProject\\Utilities\\UnityReferenceHelper.cs" }}
+,{ "pid":12345, "tid":4, "ts":1690123046774724, "dur":990, "ph":"X", "name": "File",  "args": { "detail":"Assets\\AstarPathfindingProject\\Utilities\\AstarChecksum.cs" }}
+,{ "pid":12345, "tid":4, "ts":1690123046771799, "dur":4650, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690123046776450, "dur":4518, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690123046780969, "dur":2601, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690123046783571, "dur":2338, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690123046786053, "dur":520, "ph":"X", "name": "File",  "args": { "detail":"Library\\PackageCache\\com.unity.xr.interaction.toolkit@2.3.0\\Editor\\Inputs\\Simulation\\XRDeviceSimulatorEditor.cs" }}
+,{ "pid":12345, "tid":4, "ts":1690123046785910, "dur":3602, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690123047338254, "dur":6401, "ph":"X", "name": "ProfilerWriteOutput" }
+,
